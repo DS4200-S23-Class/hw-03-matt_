@@ -1,0 +1,11 @@
+.flexbox {
+	display: flex;
+ 	flex-wrap: nowrap;
+	align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexbox > div {
+  max-width: 50%;
+}
