@@ -1,6 +1,9 @@
 body {
   font-family: Arial;
 }
+h1 {
+  text-align: center;
+}
 
 .flexbox{
   max-height: 100%;
@@ -17,11 +20,11 @@ body {
 
 
 .leftbox {
-    float: right;
+    float: center;
     max-width: 50%;
 }
 .rightbox {
-    float: right;
+    float: center;
     max-width: 50%;
 
 }
