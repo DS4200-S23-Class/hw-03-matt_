@@ -12,21 +12,19 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: left;
 }
 .flexbox div {
   max-width: 50%;
-  max-height: 30%;
 }
 
 
-.leftbox {
-    float: center;
-    max-width: 50%;
-}
-.rightbox {
-    float: center;
-    max-width: 50%;
-
+.box {
+    float: left;
+    width: 50%;
+    align-items: left;
+    text-align: left;
+    box-align: left;
 }
 
 img{
@@ -35,4 +33,8 @@ img{
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
+}
+
+.text{
+  align-items: left;
 }
