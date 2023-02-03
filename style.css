@@ -2,27 +2,34 @@ body {
   font-family: Arial;
 }
 
-.flexbox {
-	display: flex;
- 	flex-wrap: nowrap;
-	align: center;
-  flex-direction: column;
-  align-items: center;
+.flexbox{
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flexbox div {
+  max-width: 50%;
+  max-height: 30%;
 }
 
 
-.leftCol {
-    float: left;
+.leftbox {
+    float: right;
     max-width: 50%;
-    max-height: 10%;
+}
+.rightbox {
+    float: right;
+    max-width: 50%;
+
 }
 
-div {
-  padding: 0;
+img{
+    padding: 0;
     display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
-    
-justify-content: space-evenly;
 }
