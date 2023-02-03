@@ -1,12 +1,10 @@
 body {
   font-family: Arial;
-  padding: 25px;
-  background-color: white;
-  color: black;
 }
 h1 {
   text-align: center;
 }
+
 .flexbox{
   max-height: 100%;
   max-width: 100%;
@@ -14,19 +12,24 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: left;
 }
 .flexbox div {
   max-width: 50%;
-  max-height: 30%;
 }
-.leftbox {
-    float: center;
-    max-width: 50%;
+
+
+.box {
+    float: left;
+    width: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: left;
+    text-align: left;
+    box-align: left;
 }
-.rightbox {
-    float: center;
-    max-width: 50%;
-}
+
+
 img{
     padding: 0;
     display: block;
@@ -34,11 +37,7 @@ img{
     max-height: 100%;
     max-width: 100%;
 }
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-.light-mode {
-  background-color: white;
-  color: black;
+
+.text{
+  align-items: left;
 }
