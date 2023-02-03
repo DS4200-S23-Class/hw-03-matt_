@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  padding: 25px;
+  background-color: white;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+.flexbox{
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flexbox div {
+  max-width: 50%;
+  max-height: 30%;
+}
+.leftbox {
+    float: center;
+    max-width: 50%;
+}
+.rightbox {
+    float: center;
+    max-width: 50%;
+}
+img{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
