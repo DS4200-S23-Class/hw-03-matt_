@@ -17,8 +17,6 @@ h1,h3 {
 .flexbox div {
   max-width: 50%;
 }
-
-
 .box {
     float: left;
     width: 50%;
@@ -28,8 +26,6 @@ h1,h3 {
     text-align: left;
     box-align: left;
 }
-
-
 img{
     padding: 0;
     display: block;
@@ -38,6 +34,10 @@ img{
     max-width: 100%;
 }
 
+.fit1{
+  width : 700px;
+  height : 550px;
+}
 .text{
   align-items: left;
 }
@@ -45,10 +45,7 @@ img{
  background-color: #222;
  color: #e6e6e6;
 }
-.light-mode {
-  background-color: white;
-  color: black;
-}
+
 
 
 
