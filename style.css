@@ -1,0 +1,55 @@
+/* Make font Arial for whole text*/
+body {
+	font-family: Arial;
+  }
+  /* Make headers centered*/
+  h1,h3 {
+	text-align: center;
+  }
+  /* Style flexboc by making it max width and height, and make the direction up and down into cols*/
+  .flexbox{
+	max-height: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: left;
+  }
+/* Make flexbox width 50%*/
+  .flexbox div {
+	max-width: 50%;
+  }
+/* Align items left*/
+  .box {
+	  float: left;
+	  width: 47%;
+	  max-height: 100%;
+	  max-width: 100%;
+	  align-items: left;
+	  text-align: left;
+	  box-align: left;
+  }
+/* Style the images by making them max width and height*/
+  img{
+	  padding: 0;
+	  display: block;
+	  margin: 0 auto;
+	  max-height: 100%;
+	  max-width: 100%;
+  }
+/* ALign text left*/
+  .text{
+	align-items: left;
+  }
+/* Dark mode style for the button which changes the background to black and text to white */
+  .dark-mode {
+   background-color: #222;
+   color: #e6e6e6;
+  }
+/* Make the last picture bigger*/
+   .fit1{
+	width: 600px;
+   }
+  
+  

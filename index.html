@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+	<!-- Add stylesheet reference and a title -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset=utf-8/>
+    <title>hw-03</title>
+</head>
+
+<body>
+	<!-- Add header for website -->
+    <h1>HW-03: Interactive Webpage, and Marks & Channels</h1>
+    <div>
+		<!-- Use javascript to add a darkmode button when clicked toggles back and forth between dark and light mode -->
+        <button onclick="darkMode()">Darkmode</button>
+    </div>
+	
+    <div id = "Channels">
+        <div>
+			<!-- Create flexbox for the picutres on the right side and text on the left side of it -->
+        <div class = "flexbox">
+            <div class = "box"> 
+                <img src="img/vis1.png" alt="vis1.png">
+            </div>
+            <div class = "box"> 
+				<!-- Add text to the right side of the pictures that describes marks, channels, and colormaps used in the graphic-->
+                    <h2>Marks</h2>
+                   <ul>
+                       <li>Area</li>
+                  </ul>
+                  <h2>Channel</h2>
+                   <ul>
+                       <li>Shape</li>
+					    <ul>
+                       		<li>They used shape to represent each state so viewers can see what part of the country voted for each canidate. </li>
+						</ul>
+					   <li>Color Hue</li>
+					   	<ul>
+                       		<li>The use of the color, especially the contratsing red and blue make it easier for the viewer to distinguish between the two party and the inclusion of the strip patteren make the swingging state more obvious to the viewer.</li>
+                        </ul>
+					   <li>Length (1D zone)</li>
+					   	<ul>
+                       		<li>They also used length at the top of the graphic to show how many votes each canditate needs to win the election. It also shows the progress of the election as a whole.</li>
+						</ul>
+					</ul>
+                    <h2>Colormap</h2>
+                   <ul>
+                       <li>Categorical</li>
+					   	<ul>
+                       		<li>The colormap is categorical as it shows the blue states as Clinton votes and the red states as Trump votes. There are 2 discrete options which is what makes it categorical. This was a good choice but they could have made it divergent if they wanted to scale the cotes in each state. For example, the darker the blue would mean it was more democratic than a lighter blue state which was more split between the two candidates.</li>
+						</ul>
+					</ul>
+            </div>
+        </div>
+		<!-- Create flexbox for the picutres on the right side and text on the left side of it -->
+        <div class = "flexbox">
+            <div class = "box"> <img src="img/vis2.png" alt="vis1.png"></div>
+			<div class = "box"> 
+				<!-- Add text to the right side of the pictures that describes marks, channels, and colormaps used in the graphic-->
+				<h2>Marks</h2>
+			   <ul>
+				   <li>Points</li>
+			  </ul>
+			  <h2>Channel</h2>
+			   <ul>
+				   <li>Position (Both horizontal and vertical)</li>
+				   	<ul><li>The use of the position help the viewer see the distributon between launch angle and exit velocity. Make the correlation between the two factors easier for the audience to understand rather than comparing it uisng a table. </li></ul>
+				   <li>Color Hue</li>
+				   	<ul><li>The use of two contrasting color, makes it easier for the viewer to comapre the result of the two conditions influencing the results. The brighter yellow color leads the viewer to focus on the higher points.</li></ul>
+				   <li>Color Luminus</li>
+				   	<ul><li>The use of the color diverging from the white average draws viewer's attention to the two extremes and more so to the high score since that is a bright color and the white color in the middle made sure the audience's attention would not be diverged by unwanted data.</li></ul>
+				   <li>Area</li>
+				   	<ul><li>The graph was sectioned to show different types of the balls giving the viewer additional info.</li></ul>
+				   
+			  </ul>
+				<h2>Colormap</h2>
+			   <ul>
+				   <li>Divergent</li>
+				   	<ul><li>The divergent colermap helps draws the viewer's attention to the extreme, so that they can see the high score mainly appear on the line drawer area</li></ul>
+				   
+			  </ul>
+			</div>
+        </div>
+		<!-- Create flexbox for the picutres on the right side and text on the left side of it -->
+        <div class = "flexbox">
+            <div class = "box"> 
+                <img src="img/vis4.png" alt="vis1.png" class = "fit1">
+            </div>
+            <div class = "box"> 
+				<!-- Add text to the right side of the pictures that describes marks, channels, and colormaps used in the graphic-->
+				<h2>Marks</h2>
+				<ul>
+					<li>Area</li>
+					<ul>
+						<li>The Mark for this graph is Area, more specifically height and width.
+							The stacked bar graph is a 2D image that uses area to portray the results.
+						</li>
+					</ul>
+			   </ul>
+			   <h2>Channel</h2>
+				<ul>
+					<li>Position (Both horizontal and vertical)</li>
+						<ul>
+						<li>The main channel is position, vertical and horizontal, as it shows the number of awards 
+						     each artist won. The viewer can easily see the the number of grammys verses the catergory they are in 
+							 by the position of each bar.
+						</li>
+						</ul>
+					<li>Color Hue</li>
+						<ul>
+							<li>The use of the color is used here to distinguish the artists. Since we used a stacked bar chart, there 
+								there has to be a way for the viewer to distingusih the different artists. In this case, blue 
+								represents one artist and orange represents the other one. 
+							</li>
+						 </ul>
+				 </ul>
+				 <h2>Colormap</h2>
+				<ul>
+					<li>Categorical</li>
+						<ul>
+							<li>The colormap is categorical because there is two discrete colors that determine which artist is which.
+								I think this is a good choice for this type of graph because the colors are very distant from each other 
+								so the viewer won't get them mixed up. The graph should also use a categorical colormap because it 
+								only has two artists and does not have any divergent or sequential attributes.
+							</li>
+					 </ul>
+				 </ul>
+                  </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+	<!-- Add acknowledgments with references that were used -->
+    <h3>Acknowledgements</h3>
+	  <div>
+      	<ul>
+          <li><a href = "https://www.kaggle.com/datasets/marshuu/best-artists-dataset-grammys-billboard-rs/versions/3?resource=download"> Grammy Dataset from Kaggle</a></li>
+          <li><a href = "https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_stacked.html"> Stacked Bar Charts</a></li>
+          <li><a href = "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> Flexbox Using CSS</li>
+          <li><a href = "https://www.geeksforgeeks.org/html-svg-basics/?ref=lbp"> SVG Graphic Basics using HTML</li>
+          <li><a href = "https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/"> Citation for Visualizations</a></li>
+          <li><a href = "https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/"> Dark Mode Using Java Script</li>
+      	</ul>
+	  </div>
+	  <!-- Reference the javascript file so it connects to it -->
+     <script src = "./main.js" type="text/javascript"></script>
+</body>
+
+</html>
